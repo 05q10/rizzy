@@ -1,7 +1,4 @@
 # Q17. Chunking - Noun Phrase (NP) Identification
-# NP rule: DET? ADJ* NOUN
-# Since averaged_perceptron_tagger is not guaranteed to be available,
-# we use a rule-based POS tagger (same rules as Q5) and then chunk.
 
 sentence = "The quick brown fox jumped over a lazy sleeping dog"
 

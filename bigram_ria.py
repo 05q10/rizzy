@@ -7,16 +7,8 @@ I love machine learning
 machine learning is fun
 NLP is fun
 """
-    
-# -----------------------------------
-# Step 1: Tokenize text
-# -----------------------------------
 
 words = text.lower().split()
-
-# -----------------------------------
-# Step 2: Create bigrams
-# -----------------------------------
 
 bigrams = {}
 
@@ -31,18 +23,11 @@ for i in range(len(words) - 1):
 
     bigrams[current_word].append(next_word)
 
-# -----------------------------------
-# Display Bigram Model
-# -----------------------------------
 
 print("Bigram Dictionary:\n")
 
 for word in bigrams:
     print(word, "->", bigrams[word])
-
-# -----------------------------------
-# Step 3: Generate Text
-# -----------------------------------
 
 current_word = "i"
 
